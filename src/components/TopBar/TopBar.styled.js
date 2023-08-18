@@ -70,4 +70,7 @@ export const StyledUserNameSpan = styled.span`
 export const StyledNav = styled.nav`
   text-align: center;
 `;
-export const StyledAuthBox = styled.div``;
+export const StyledAuthBox = styled.div`
+  display: flex;
+  justify-content: center;
+`;
