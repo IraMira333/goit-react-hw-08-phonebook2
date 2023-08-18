@@ -4,7 +4,8 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Link from '@mui/material/Link';
-import purple from '@material-ui/core/colors/purple';
+import { purple } from '@mui/material/colors';
+//import purple from '@material-ui/core/colors/purple';
 
 function Copyright(props) {
   return (
