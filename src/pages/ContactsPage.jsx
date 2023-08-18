@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
 import Container from '@mui/material/Container';
-import Typography from '@material-ui/core/Typography';
+//import Typography from '@material-ui/core/Typography';
 
 import ContactList from 'components/ContactList/ContactList';
 import Filter from 'components/Filter/Filter';
@@ -53,9 +53,9 @@ export default function ContactsPage() {
         },
       }}
     >
-      <Typography variant="h3" color="primary">
+      {/* <Typography variant="h3" color="primary">
         Contacts
-      </Typography>
+      </Typography> */}
       {isLoading && <Spiner />}
       {isError && <p>{isError}</p>}{' '}
       {showContacts && (
