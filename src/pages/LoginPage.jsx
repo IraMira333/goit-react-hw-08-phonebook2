@@ -8,7 +8,7 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import purple from '@material-ui/core/colors/purple';
+import { purple } from '@mui/material/colors';
 
 import { useDispatch } from 'react-redux';
 import { logIn } from 'redux/auth';
